@@ -28,10 +28,10 @@ jobs:
         config:
           - arch: x86_64
             target: x86_64-pc-windows-msvc
-            url: https://cef-builds.spotifycdn.com/cef_binary_131.2.7%2Bg9a14dc9%2Bchromium-131.0.6778.86_windows64.tar.bz2
+            url: https://cef-builds.spotifycdn.com/cef_binary_109.1.18%2Bgf1c41e4%2Bchromium-109.1.5414.120_windows64.tar.bz2
           - arch: i686
             target: i686-pc-windows-msvc
-            url: https://cef-builds.spotifycdn.com/cef_binary_131.2.7%2Bg9a14dc9%2Bchromium-131.0.6778.86_windows32.tar.bz2
+            url: https://cef-builds.spotifycdn.com/cef_binary_109.1.18%2Bgf1c41e4%2Bchromium-109.1.5414.120_windows32.tar.bz2
 
     steps:
       - uses: actions/checkout@v4
