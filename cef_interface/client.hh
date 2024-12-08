@@ -47,7 +47,7 @@ class MyClient : public CefClient,
   bool DoClose(CefRefPtr<CefBrowser> browser) override;
   void OnAfterCreated(CefRefPtr<CefBrowser> browser) override;
   void OnBeforeClose(CefRefPtr<CefBrowser> browser) override;
-#if CEF_VERSION_MAJOR >= 131
+#if CEF_VERSION_MAJOR >= 109
   bool OnBeforePopup(
       CefRefPtr<CefBrowser> browser,
       CefRefPtr<CefFrame> frame,
