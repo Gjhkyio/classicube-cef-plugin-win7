@@ -93,7 +93,7 @@ bool MyClient::DoClose(CefRefPtr<CefBrowser> browser) {
   return false;
 }
 
-#if CEF_VERSION_MAJOR >= 131
+#if CEF_VERSION_MAJOR >= 109
 bool MyClient::OnBeforePopup(
     CefRefPtr<CefBrowser> browser,
     CefRefPtr<CefFrame> frame,
